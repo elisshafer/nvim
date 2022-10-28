@@ -3,7 +3,6 @@ require'lspconfig'.golangci_lint_ls.setup{}
 require'lspconfig'.pyre.setup{}
 require'lspconfig'.eslint.setup{}
 require'lspconfig'.graphql.setup{}
-require'lspconfig'.grammarly.setup{}
 require('lspconfig').yamlls.setup{}
 
 --Enable (broadcasting) snippet capability for completion
